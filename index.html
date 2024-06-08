@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body style="background-color: rgb(245, 229, 11);color: aliceblue;">
+    <div class="entry-form" id="entry-form">
+        <form>
+            <input type="text" class="form-control" id="name" placeholder="Name" required><br>
+            <input type="number" class="form-control" id="phone" placeholder="Phone" required><br>
+            <input type="email" class="form-control" id="email" placeholder="Email" required><br>
+            <div class="input-btns">
+                <button type="submit" id="submit-btn" class="btn btn-primary ">submit</button>
+            </div>
+        </form>
+    </div>
+    <div class="c0l-20 col-md-16 mt-5">
+      <table class="table table-striped table-light">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Date</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody class="contactlist"></tbody>
+        </table>
+    </div>    
+    <script src="js/script.js"></script>
+</body>
+</html>
